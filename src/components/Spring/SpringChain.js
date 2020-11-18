@@ -10,6 +10,7 @@ export const SpringChain = () => {
         opacity: 0,
       },
       to: [
+        // Can be an array of multiple configurations or just one
         {
           color: 'red',
           opacity: 1,

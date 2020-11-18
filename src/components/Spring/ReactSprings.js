@@ -9,7 +9,7 @@ export const ReactSprings = () => {
       id: 1,
       from: {
         backgroundColor: 'green',
-        width: 10,
+        width: 600,
       },
       to: {
         backgroundColor: 'blue',
@@ -24,11 +24,11 @@ export const ReactSprings = () => {
       id: 2,
       from: {
         backgroundColor: 'red',
-        width: 100,
+        width: 600,
       },
       to: {
         backgroundColor: 'yellow',
-        width: 20,
+        width: 100,
       },
       config: {
         friction: 40,
@@ -39,11 +39,15 @@ export const ReactSprings = () => {
       id: 3,
       from: {
         backgroundColor: 'orange',
-        width: 20,
+        width: 200,
       },
       to: {
         backgroundColor: 'teal',
-        width: 220,
+        width: 520,
+      },
+      config: {
+        friction: 60,
+        mass: 100,
       },
     },
   ];
