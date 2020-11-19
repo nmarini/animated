@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-// animated is a wrapper for element or component
 import { useChain, useSpring, animated } from 'react-spring';
 
 export const SpringChain = () => {
@@ -41,6 +40,9 @@ export const SpringChain = () => {
   // You need to collect refs off the animations you want to chain,
   // which blocks the animation from starting on its own.
   useChain([ref1, ref2, ref3]);
+
+  // Can change the order of the chain of effects
+  // useChain([ref2, ref1, ref3]);
   return (
     <div>
       <animated.h4 style={style1}>This</animated.h4>

@@ -1,4 +1,3 @@
-// animated is a wrapper for element or component
 import { useSprings, animated } from 'react-spring';
 import './reactSpring.css';
 
@@ -7,11 +6,11 @@ export const ReactSprings = () => {
     {
       id: 1,
       from: {
-        backgroundColor: 'green',
+        backgroundColor: 'lawngreen',
         width: 600,
       },
       to: {
-        backgroundColor: 'blue',
+        backgroundColor: 'burlywood',
         width: 200,
       },
       config: {
