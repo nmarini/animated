@@ -15,7 +15,7 @@ const transitionStyles = {
 
 export const TransitionFade = ({ in: inProp }) => {
   return (
-    <div>
+    <div style={{ color: 'teal', fontWeight: 'bold' }}>
       <Transition in={inProp} timeout={duration}>
         {(state) => (
           <div

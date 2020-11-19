@@ -19,7 +19,10 @@ export const ReactSpring = () => {
   //   },
   // });
   return (
-    <div onClick={() => setToggle(!isToggled)}>
+    <div
+      style={{ color: 'teal', fontWeight: 'bold' }}
+      onClick={() => setToggle(!isToggled)}
+    >
       {/* animated.div takes the animation outside of react so React does not 
       think about the animation value */}
       <animated.div style={fade}>I'm a React Spring Effect!</animated.div>

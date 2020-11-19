@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useState } from 'react';
-import { useSpring, animated } from 'react-spring';
 import { ReactSpring } from './components/Spring/ReactSpring';
 import { ReactSprings } from './components/Spring/ReactSprings';
 import { SpringTransition } from './components/Spring/SpringTransition';
@@ -22,7 +21,7 @@ const App = () => {
           height: '60vh',
         }}
       >
-        <h1>Effects from React Springs</h1>
+        <h1 style={{ color: 'lightblue' }}>Effects from React Springs</h1>
         <Tabs>
           <TabList>
             <Tab>React Transition Group - Fade</Tab>

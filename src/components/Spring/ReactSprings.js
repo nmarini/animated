@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 // animated is a wrapper for element or component
 import { useSprings, animated } from 'react-spring';
 import './reactSpring.css';

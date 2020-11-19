@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 // animated is a wrapper for element or component
 import { useTransition, animated } from 'react-spring';
 
